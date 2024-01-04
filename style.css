@@ -1,0 +1,341 @@
+body {
+  background-color: #1b1b1b;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+.div {
+  background-color: #3a3a3a;
+  overflow: hidden;
+  width: 1920px;
+  height: 6135px;
+  position: relative;
+}
+
+.overlap {
+  position: absolute;
+  width: 1924px;
+  height: 148px;
+  top: 5987px;
+  left: 0;
+}
+
+/* Box on the bottom */
+.footer-box {
+  position: relative;
+  width: 1920px;
+  height: 148px;
+  background-color: #141313;
+}
+/* Digitale Talenter Oppgave tekst */
+.digitale-talenter-tekst {
+  position: absolute;
+  top: 54px;
+  left: 1222px;
+  font-family: "Inter", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 32px;
+  letter-spacing: 5.12px;
+  line-height: normal;
+}
+/* GitHub Link */
+.GitHub {
+  position: absolute;
+  top: 50px;
+  left: 106px;
+  font-family: "Inter", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 40px;
+  letter-spacing: 6.4px;
+  line-height: normal;
+  white-space: nowrap;
+}
+/* PålDT signatur */
+.SignDT {
+  position: absolute;
+  width: 274px;
+  top: 1px;
+  left: 887px;
+  mix-blend-mode: soft-light;
+  font-family: "Just Me Again Down Here", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 96px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.facts-menu {
+  position: absolute;
+  width: 1543px;
+  height: 844px;
+  top: 5019px;
+  left: 189px;
+}
+/* Black background (Facts) */
+#Facts-background-box {
+  position: relative;
+  width: 1541px;
+  height: 844px;
+  background-color: #000000;
+  border-radius: 15px;
+  box-shadow: 0px 4px 4px #00000040;
+}
+/* nasa */
+.nasa-moon {
+  position: absolute;
+  width: 561px;
+  height: 641px;
+  top: 8px;
+  left: 940px;
+  object-fit: cover;
+}
+/* Facts text */
+.facts-paragraph {
+  position: absolute;
+  width: 919px;
+  top: 142px;
+  left: 53px;
+  text-shadow: 0px 4px 4px #00000040;
+  font-family: "Inter", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 32px;
+  letter-spacing: 5.12px;
+  line-height: normal;
+}
+/* p image */
+.paragraph-image {
+  height: 1075px;
+  top: 3808px;
+  position: absolute;
+  width: 1922px;
+  left: 0;
+}
+/* Rocket NASA */
+#FactsIntro {
+  position: relative;
+  width: 1920px;
+  height: 1075px;
+  background-image: url(Images/rocketNASA.jpg);
+  background-size: cover;
+  background-position: 50% 50%;
+}
+/* facts on image */
+.facts-image-text {
+  position: absolute;
+  width: 233px;
+  top: 295px;
+  left: 1566px;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.823);
+  font-family: "Inter", Helvetica;
+  font-weight: 600;
+  color: #171616;
+  font-size: 64px;
+  letter-spacing: 10.24px;
+  line-height: 64px;
+}
+
+.characteristics-menu {
+  position: absolute;
+  width: 1543px;
+  height: 1397px;
+  top: 2277px;
+  left: 189px;
+}
+/* Centering of image */
+.centering-image-characteristic {
+  position: relative;
+  width: 1541px;
+  height: 1397px;
+  border-radius: 15px;
+}
+
+.main {
+  position: absolute;
+  width: 1541px;
+  height: 1397px;
+  top: 0;
+  left: 0;
+  background-color: #000000;
+  border-radius: 15px;
+  box-shadow: 0px 4px 4px #00000040;
+}
+/* Venus Orange plantet image */
+.orange-planet {
+  position: absolute;
+  width: 862px;
+  height: 922px;
+  top: 466px;
+  left: 12px;
+  object-fit: cover;
+}
+
+.characteristics {
+  position: absolute;
+  width: 919px;
+  top: 201px;
+  left: 613px;
+  text-shadow: 0px 4px 4px #00000040;
+  font-family: "Inter", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 32px;
+  letter-spacing: 5.12px;
+  line-height: normal;
+}
+
+.overlap-wrapper {
+  height: 1243px;
+  top: 892px;
+  position: absolute;
+  width: 1922px;
+  left: 0;
+}
+/* Nasa Earth Image */
+#nasa-earth {
+  position: relative;
+  width: 1920px;
+  height: 1243px;
+  background-image: url(Images/nasa\ earth.jpg);
+  background-size: cover;
+  background-position: 50% 50%;
+}
+/* Characteristics Image */
+#CharacteristicsIntro {
+  position: absolute;
+  top: 163px;
+  left: 89px;
+  text-shadow: 0px 4px 4px #00000040;
+  font-family: "Inter", Helvetica;
+  font-weight: 600;
+  color: #171616;
+  font-size: 64px;
+  letter-spacing: 10.24px;
+  line-height: 64px;
+  white-space: nowrap;
+}
+
+.venus {
+  position: absolute;
+  width: 1471px;
+  height: 655px;
+  top: 213px;
+  left: 173px;
+}
+
+.overlap-5 {
+  position: relative;
+  width: 1467px;
+  height: 655px;
+  background-color: #000000;
+  border-radius: 15px;
+}
+
+.img {
+  position: absolute;
+  width: 655px;
+  height: 655px;
+  top: 0;
+  left: 573px;
+  object-fit: cover;
+}
+
+.text-wrapper-7 {
+  position: absolute;
+  width: 428px;
+  top: 60px;
+  left: 46px;
+  text-shadow: 0px 4px 4px #00000040;
+  -webkit-text-stroke: 1px #a66400;
+  font-family: "Inria Serif", Helvetica;
+  font-weight: 400;
+  color: #f8b577;
+  font-size: 128px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.description {
+  position: absolute;
+  width: 428px;
+  top: 288px;
+  left: 45px;
+  text-shadow: 0px 4px 4px #00000040;
+  -webkit-text-stroke: 1px #000000;
+  font-family: "Inria Serif", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 40px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+nav {
+  position: fixed;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+.box {
+  position: fixed;
+  width: 1920px;
+  height: 100px;
+  margin: auto;
+  background-color: #1b1b1b;
+  top: 0;
+}
+button {
+  font-size: 18px;
+  color: #e1e1e1;
+  font-family: inherit;
+  font-weight: 800;
+  cursor: pointer;
+  position: relative;
+  border: none;
+  background: none;
+  text-transform: uppercase;
+  -webkit-transition-timing-function: cubic-bezier(0.25, 0.8, 0.25, 1);
+  transition-timing-function: cubic-bezier(0.25, 0.8, 0.25, 1);
+  -webkit-transition-duration: 400ms;
+  transition-duration: 400ms;
+  -webkit-transition-property: color;
+  transition-property: color;
+}
+
+button:focus,
+button:hover {
+  color: #fff;
+}
+
+button:focus:after,
+button:hover:after {
+  width: 100%;
+  left: 0%;
+}
+
+button:after {
+  content: "";
+  pointer-events: none;
+  bottom: -2px;
+  left: 50%;
+  position: absolute;
+  width: 0%;
+  height: 2px;
+  background-color: #fff;
+  -webkit-transition-timing-function: cubic-bezier(0.25, 0.8, 0.25, 1);
+  transition-timing-function: cubic-bezier(0.25, 0.8, 0.25, 1);
+  -webkit-transition-duration: 400ms;
+  transition-duration: 400ms;
+  -webkit-transition-property: width, left;
+  transition-property: width, left;
+}

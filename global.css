@@ -1,0 +1,20 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css");
+@import url("https://fonts.googleapis.com/css?family=Inter:400,600|Just+Me+Again+Down+Here:400|Inria+Serif:400");
+* {
+  box-sizing: border-box;
+}
+html {
+  scroll-behavior: smooth;
+}
+body {
+  margin: 0px;
+  height: 100%;
+}
+a {
+  padding: 30px 75px;
+  color: white;
+  text-decoration: none;
+  display: block;
+  font-family: "Inter", Helvetica;
+  font-weight: 400;
+}
